@@ -13,14 +13,14 @@ sidebar:
 
     # Sidebar links
     email: themayankverma@gmail.com
-    phone: +919456608577
+    phone: 
     website:  #do not add http://
     linkedin: mayank-kr-verma 
     github: mayank-kr-verma
     gitlab:
     bitbucket:
     twitter: 
-    stack-overflow: 8026255/Mayank_kr_verma # Number/Username, e.g. 123456/alandoe
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
@@ -71,7 +71,7 @@ education:
     #       - Bullet point
 
 experiences:
-    - role: Android
+    - role: Android Developer
       time: Dec/2018 - Jan/2019
       company: EazyPG
       details: |
@@ -155,7 +155,7 @@ skills:
 
     toolset:
       - name: Android
-        level: 70%
+        level: 80%
 
       - name: Python
         level: 60%
