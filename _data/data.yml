@@ -1,0 +1,18 @@
+author: Mayank
+intro: Hi, I am Mayank!
+tagline: IT UnderGrad Student | Love to tinker with <i class="fab fa-python"></i> and <i class="fab fa-android"></i>
+description: Personal website and blog
+avatar: profile.png
+email: themayankverma@gmail.com
+github: mayank-kr-verma # username
+# twitter:
+# dev:
+# overflow: username   #e.g: users/2735833/proton1h1
+linkedin: mayank-kr-verma
+# medium:
+# camp:
+# behance:
+# codepen:
+#Comment out if you don't want disqus
+disqus: username
+google_analytics: UA-69391421-1
