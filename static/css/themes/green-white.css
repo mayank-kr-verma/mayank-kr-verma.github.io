@@ -1,6 +1,7 @@
 /* Theme */
 
 main {
+	margin-top: -65px;
 	background: #43A047;
 	color: #FAFAFA;
 }

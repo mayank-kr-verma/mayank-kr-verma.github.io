@@ -3,14 +3,14 @@
 html,
 body {
   height: 100%;
-  background-color: #43A047;
+  background-color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #43A047;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
-  padding-bottom: 50px;	
+  
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
@@ -166,6 +166,10 @@ body {
 
 /* Footer 
 -------------------------------------------------- */
+
+footer {
+  background-color: #43A047;
+}
 
 .footer {
   text-decoration: none !important;
