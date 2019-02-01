@@ -26,6 +26,8 @@ body {
   margin-bottom: 10px;
 }
 .navbar-default {
+  border: 0px !important;
+  margin-bottom: 0px !important;
   background-color: #43A047;
   border-color: #43A047;
 }
