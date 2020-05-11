@@ -246,6 +246,11 @@ function loadApp() {
 	
 	// Zoom.js
 
+		
+	$(".magazine-viewport").bind("zoom.swipeRight", function(event) {$(".magazine").turn("previous");});
+	$(".magazine-viewport").bind("zoom.swipeLeft", function(event) {$(".magazine").turn("next");});
+
+	
 	$('.magazine-viewport').zoom({
 		flipbook: $('.magazine'),
 
