@@ -262,18 +262,7 @@ function loadApp() {
 
 		when: {
 
-			swipeLeft: function() {
-
-				$(this).zoom('flipbook').turn('next');
-
-			},
-
-			swipeRight: function() {
-				
-				$(this).zoom('flipbook').turn('previous');
-
-			},
-
+			
 			resize: function(event, scale, page, pageElement) {
 
 				if (scale==1)
@@ -318,18 +307,6 @@ function loadApp() {
 			}
 		}
 	});
-
-	$('.magazine').on( "swipeleft", function( event ) { 
-        	$('.magazine').turn('next');
-		e.preventDefault();
-               } );
-
-
-	 $('.magazine').on( "swiperight", function( event ) { 
-		$('.magazine').turn('previous');
-		e.preventDefault();
-				} );
-	
 	
 	if ($.isTouch)
 		$('.magazine-viewport').bind('zoom.doubleTap', zoomTo);
