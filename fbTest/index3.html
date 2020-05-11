@@ -11,6 +11,7 @@
 <script type="text/javascript" src="jsFb/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="jsFb/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="jsFb/hash.js"></script>
+<script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 </head>
 <body>
@@ -314,12 +315,14 @@ function loadApp() {
 	});
 
 	$('.magazine').on( "swipeleft", function( event ) { 
-        $('.magazine').turn('next');
+        	$('.magazine').turn('next');
+		e.preventDefault();
                } );
 
 
 	 $('.magazine').on( "swiperight", function( event ) { 
 		$('.magazine').turn('previous');
+		e.preventDefault();
 				} );
 	
 	
